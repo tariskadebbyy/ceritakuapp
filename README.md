@@ -17,7 +17,7 @@ Proyek ini adalah tugas akhir dari kelas belajar pemrograman web intermediate, d
 
 ### Installation
 
-1. Download starter project [di sini](https://github.com/SyafrizalWdMahendra/story-app.git).
+1. Download starter project [di sini](https://tariskadebbyy.github.io/ceritakuapp).
 2. Lakukan unzip file.
 3. Pasang seluruh dependencies dengan perintah berikut.
    ```shell
