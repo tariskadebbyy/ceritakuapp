@@ -1,0 +1,1 @@
+APP_URL=https://syafrizalwdmahendra.github.io/story-app/

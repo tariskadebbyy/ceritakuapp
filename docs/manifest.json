@@ -1,0 +1,30 @@
+{
+  "name": "Story App",
+  "short_name": "StoryApp",
+  "start_url": "#/login",
+  "display": "standalone",
+  "background_color": "#000",
+  "theme_color": "#8e1616",
+  "icons": [
+    {
+      "src": "images/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/img1.jpg",
+      "sizes": "512x512",
+      "type": "image/jpg"
+    },
+    {
+      "src": "images/img2.jpg",
+      "sizes": "512x512",
+      "type": "image/jpg"
+    },
+    {
+      "src": "images/img3.jpg",
+      "sizes": "512x512",
+      "type": "image/jpg"
+    }
+  ]
+}

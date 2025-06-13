@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CeritaKu App</title>
+    <link rel="apple-touch-icon" href="favicon.png" />
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="manifest" href="./manifest.json" />
+    <meta name="theme-color" content="#007bff" />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&family=Sora:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    
+    <!-- Leaflet & Main Styles -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="main-header container">
+        <a href="#main-content" class="skip-to-content">Lewati ke konten utama</a>
+        <a class="brand-name" href="#home">CeritaKu</a>
+
+        <button id="drawer-button" class="drawer-button" aria-label="Toggle navigasi">☰</button>
+
+        <nav id="navigation-drawer" class="navigation-drawer" aria-label="Navigasi utama">
+          <ul class="nav-list">
+            <li><a href="#home" class="nav-link">Beranda</a></li>
+            <li><a href="#report" class="nav-link">Buat Cerita</a></li>
+            <li><a href="#profile" class="nav-link">Profil</a></li>
+          </ul>
+          <div id="push-button-container"></div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content" class="main-content" tabindex="-1">
+      <!-- Konten dinamis dari JS -->
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" defer></script>
+    <script src="scripts/app.js" defer></script>
+    <script>
+      const drawerButton = document.getElementById('drawer-button');
+      const navDrawer = document.getElementById('navigation-drawer');
+
+      drawerButton.addEventListener('click', () => {
+        navDrawer.classList.toggle('open');
+      });
+    </script>
+  </body>
+</html>
