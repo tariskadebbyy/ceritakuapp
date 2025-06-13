@@ -1,6 +1,6 @@
 {
-  "name": "Story App",
-  "short_name": "StoryApp",
+  "name": "CeritaKu",
+  "short_name": "Ceritaku",
   "start_url": "#/login",
   "display": "standalone",
   "background_color": "#000",
